@@ -1,12 +1,43 @@
-# React + Vite
+<h1 align="center" id="title">DOJANKWON</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center"><img src="https://socialify.git.ci/Amorfinaa/DOJANKWON/image?description=1&amp;font=Jost&amp;language=1&amp;name=1&amp;pattern=Signal&amp;theme=Dark" alt="project-image"></p>
 
-Currently, two official plugins are available:
+<p id="description">Interfaz web para la plataforma de gestión de la academia de Taekwondo DOJANKWON desarrollada con React + Vite. <br> <h3>Backend:</h3> https://github.com/Amorfinaa/DOJANKWON-BACKEND</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>🛠️ Installation Steps:</h2>
 
-## Expanding the ESLint configuration
+<p>1. Clona el repositorio</p>
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+git clone https://github.com/Amorfinaa/DOJANKWON.git
+```
+
+<p>2. Instala las dependencias bash Copiar Editar</p>
+
+```
+npm install
+```
+
+<p>3. Ejecuta la aplicación</p>
+
+```
+npm run dev
+```
+
+  
+<h2>Estructura de carpetas</h2>
+src/<br>
+│<br>
+├── components/       # Componentes reutilizables<br>
+├── pages/            # Vistas principales<br>
+├── services/         # Llamadas a API (Axios)<br>
+├── assets/           # Imágenes y estilos<br>
+└── App.jsx           # Enrutador principal
+
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   Vite
+*   TailwindCss
+*   React
