@@ -1,0 +1,96 @@
+/*fonts*/
+
+
+/*Colores Primarios*/
+#root { 
+  width: 100%;
+  min-height: 100vh;
+
+  /*colores con switch 1*/
+  --input-border-color: #c8d4f8de;
+  --primary-background-color: #fff;
+  --secundary-background-color: #f7f7f7;
+
+  --custom-border-color:#c4c4c4;
+
+  --primary-text-color: #000;
+  --secundary-text-color: #4b4c53;
+
+  --primary-border-color: #4b4c53;
+
+  --button-solid-background-color: #000;
+  --button-solid-text-color: #fff;
+
+  --button-outline-background-color: #transparent;
+  --button-outline-text-color: #000;
+
+  --sidebar-hover-bg: #f0f0f0;
+  --sidebar-active-bg: #e0e7ffde;
+  --sidebar-active-text: #1e3a8a;
+
+  /*Tabla hover  e0e7ff*/
+   --table-hover-bg: #e0e7ff;
+
+
+
+  /*Colores con switch 2*/
+  --primary-dark-color: #111117;
+  --secundary-dark-color: #18181e; /*#1e1e2f*/
+  --sidebar-dark-hover: #16161d;
+  --terceary-dark-color: #4b607f;
+  --accent-dark-color: #F44E1C;
+  --text-dark-color: #e8d8c9;
+
+  --sidebar-dark-hover-transparent: #16161d66; /* #16161d con 40% opacidad */
+  --text-dark-color-transparent: #e8d8c966; /* #e8d8c9 con 40% opacidad */
+    --accent-dark-color-transparent: #f44e1c66; /* #F44E1C al 40% */
+
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+/*Font*/
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('/src/assets/fonts/JosefinSans-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 700;
+  font-style: normal;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
