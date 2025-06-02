@@ -12,7 +12,7 @@
 git clone https://github.com/Amorfinaa/DOJANKWON.git
 ```
 
-<p>2. Instala las dependencias bash Copiar Editar</p>
+<p>2. Instala las dependencias</p>
 
 ```
 npm install
